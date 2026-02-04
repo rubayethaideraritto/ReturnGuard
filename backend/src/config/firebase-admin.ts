@@ -12,13 +12,18 @@ if (!admin.apps.length) {
             admin.initializeApp({
                 credential: admin.credential.cert(serviceAccount)
             });
+            console.log('✅ Firebase Admin initialized via FIREBASE_SERVICE_ACCOUNT_KEY');
         } catch (error) {
-            console.error('Failed to parse FIREBASE_SERVICE_ACCOUNT_KEY');
+            console.error('❌ Failed to parse FIREBASE_SERVICE_ACCOUNT_KEY environment variable');
         }
     } else {
         // Fallback to Application Default Credentials (good for local dev with Google Cloud CLI)
-        // OR simply rely on GOOGLE_APPLICATION_CREDENTIALS path
-        admin.initializeApp();
+        try {
+            admin.initializeApp();
+            console.log('ℹ️ Firebase Admin initialized via Default Credentials');
+        } catch (error) {
+            console.warn('⚠️ Firebase Admin failed to initialize (Expected if local or no creds set)');
+        }
     }
 }
 
