@@ -1,0 +1,29 @@
+{
+    "name": "returnguard-backend",
+    "version": "1.0.0",
+    "description": "Backend API for ReturnGuard AI",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "nodemon src/index.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@types/bcryptjs": "^2.4.6",
+        "@types/node-fetch": "^2.6.13",
+        "bcryptjs": "^3.0.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "firebase-admin": "^13.6.1",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.13",
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.4.5",
+        "nodemon": "^3.1.11",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
