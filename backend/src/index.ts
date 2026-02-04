@@ -23,6 +23,13 @@ const riskAgent = new OrderRiskAgent();
 const commsAgent = new CustomerCommunicationAgent();
 const returnAgent = new ReturnDecisionAgent();
 
+
+// ---- Debug Logging Middleware ----
+app.use((req, res, next) => {
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    next();
+});
+
 // ---- Middlewares ----
 // ---- Middlewares ----
 const allowedOrigins = [
@@ -194,4 +201,5 @@ app.post('/api/returns', (req: Request, res: Response) => {
 app.listen(PORT, () => {
     console.log(`ReturnGuard backend running on port ${PORT}`);
 });
+
 
