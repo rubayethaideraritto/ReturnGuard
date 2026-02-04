@@ -132,6 +132,22 @@ app.post('/api/orders', (req: Request, res: Response) => {
     res.json(processedOrder);
 });
 
+
+// ---- Settings ----
+app.get('/api/settings', (req: Request, res: Response) => {
+    const userId = (req as any).userId;
+    const settings = db.getUserSettings(userId);
+    res.json(settings);
+});
+
+app.post('/api/settings', (req: Request, res: Response) => {
+    const userId = (req as any).userId;
+    const settings = req.body;
+    db.updateUserSettings(userId, settings);
+    res.json({ success: true, settings: db.getUserSettings(userId) });
+});
+
+
 // ---- Returns ----
 app.post('/api/returns', (req: Request, res: Response) => {
     const userId = (req as any).userId;
@@ -178,3 +194,4 @@ app.post('/api/returns', (req: Request, res: Response) => {
 app.listen(PORT, () => {
     console.log(`ReturnGuard backend running on port ${PORT}`);
 });
+
