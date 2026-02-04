@@ -17,11 +17,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ---- Middlewares ----
-app.use(cors({
-    origin:
-        'https://returnguard-interface.onrender.com/',
-    credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 // ---- Health Check / Root ----
@@ -156,4 +152,5 @@ app.post('/api/returns', (req: Request, res: Response) => {
 app.listen(PORT, () => {
     console.log(`ReturnGuard backend running on port ${PORT}`);
 });
+
 
