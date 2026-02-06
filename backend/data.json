@@ -1,0 +1,2539 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-6413",
+      "customer_id": "CUST-101",
+      "product_category": "Electronics",
+      "price": 1200,
+      "return_history_count": 0,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ]
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-5129",
+      "customer_id": "CUST-101",
+      "product_category": "Electronics",
+      "price": 150,
+      "return_history_count": 9,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ]
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-5928",
+      "customer_id": "CUST-101",
+      "product_category": "Electronics",
+      "price": 150,
+      "return_history_count": 0,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High risk category: Electronics"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-7304",
+      "customer_id": "CUST-101",
+      "product_category": "Electronics",
+      "price": 150,
+      "return_history_count": 3,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High risk category: Electronics"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-566",
+      "customer_id": "CUST-102",
+      "product_category": "Electronics",
+      "price": 150,
+      "return_history_count": 3,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High risk category: Electronics"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-6531",
+      "customer_id": "CUST-102",
+      "product_category": "Electronics",
+      "price": 600,
+      "return_history_count": 3,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High risk category: Electronics"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-2392",
+      "customer_id": "CUST-102",
+      "product_category": "Cloth",
+      "price": 600,
+      "return_history_count": 3,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [],
+        "reasoning_factors": [],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-2575",
+      "customer_id": "CUST-101",
+      "product_category": "Electronics",
+      "price": 150,
+      "return_history_count": 0,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence": "HIGH",
+        "reasons": [
+          "High risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High risk category: Electronics"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-7669",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Frequent returner (4 past returns, 80% rate)",
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 153.75,
+        "prevention_chance": 75,
+        "potential_loss_without_ai": 205,
+        "recommended_action": "EXCHANGE",
+        "action_description": "Send exchange-only policy reminder + manual review flag"
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-7669! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T09:18:22.631Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-3474",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Electronics",
+      "price": 252,
+      "return_history_count": 0,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 2,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 35,
+        "risk_label": "LOW",
+        "confidence_percent": 80,
+        "reasons": [
+          "COD payment method",
+          "High-risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "Cash on Delivery (higher refusal risk)",
+          "High-risk category: Electronics"
+        ],
+        "estimated_savings": 3.75,
+        "prevention_chance": 15,
+        "potential_loss_without_ai": 25,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "Send order confirmation with product details"
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-6339",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Electronics",
+      "price": 252,
+      "return_history_count": 0,
+      "payment_method": "CARD",
+      "is_cod": false,
+      "account_age_days": 2,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence_percent": 80,
+        "reasons": [
+          "High-risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High-risk category: Electronics"
+        ],
+        "estimated_savings": 3.75,
+        "prevention_chance": 15,
+        "potential_loss_without_ai": 25,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "Send order confirmation with product details"
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-3156",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Electronics",
+      "price": 252,
+      "return_history_count": 1,
+      "payment_method": "CARD",
+      "is_cod": false,
+      "account_age_days": 25,
+      "past_returns": 1,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 15,
+        "risk_label": "LOW",
+        "confidence_percent": 80,
+        "reasons": [
+          "High-risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "High-risk category: Electronics"
+        ],
+        "estimated_savings": 3.75,
+        "prevention_chance": 15,
+        "potential_loss_without_ai": 25,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "Send order confirmation with product details"
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-3101",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Electronics",
+      "price": 252,
+      "return_history_count": 2,
+      "payment_method": "CARD",
+      "is_cod": false,
+      "account_age_days": 25,
+      "past_returns": 2,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 35,
+        "risk_label": "LOW",
+        "confidence_percent": 80,
+        "reasons": [
+          "Previous return history",
+          "High-risk category: Electronics"
+        ],
+        "reasoning_factors": [
+          "Previous return history (2 returns)",
+          "High-risk category: Electronics"
+        ],
+        "estimated_savings": 3.75,
+        "prevention_chance": 15,
+        "potential_loss_without_ai": 25,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "Send order confirmation with product details"
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-5128",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Cloth",
+      "price": 252,
+      "return_history_count": 2,
+      "payment_method": "CARD",
+      "is_cod": false,
+      "account_age_days": 25,
+      "past_returns": 2,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 20,
+        "risk_label": "LOW",
+        "confidence_percent": 80,
+        "reasons": [
+          "Previous return history"
+        ],
+        "reasoning_factors": [
+          "Previous return history (2 returns)"
+        ],
+        "estimated_savings": 3.75,
+        "prevention_chance": 15,
+        "potential_loss_without_ai": 25,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "Send order confirmation with product details"
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-6397",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Frequent returner (4 past returns, 80% rate)",
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 153.75,
+        "prevention_chance": 75,
+        "potential_loss_without_ai": 205,
+        "recommended_action": "EXCHANGE",
+        "action_description": "Send exchange-only policy reminder + manual review flag"
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-6397! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T09:24:16.736Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-8089",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 of last 5 orders.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "NO_ACTION",
+        "action_description": "",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-8089! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T09:49:37.775Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-9911",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 of last 5 orders.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "NO_ACTION",
+        "action_description": "",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-9911! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T10:24:38.941Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-743",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 of last 5 orders.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "NO_ACTION",
+        "action_description": "",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-743! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T10:28:38.012Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-9731",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 1,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 1,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 30,
+        "risk_label": "LOW",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 1 of last 5 orders.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 100,
+        "recommended_action": "NO_ACTION",
+        "action_description": "",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 75,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "Low-risk customers like this drive 80% of safe revenue."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-6680",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-6680! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T10:48:37.714Z"
+        }
+      },
+      "status": "RETURN_REQUESTED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "returnRequest": {
+        "reason": "DEFECTIVE",
+        "condition": "UNOPENED",
+        "decision": {
+          "recommendation": "MANUAL_REVIEW",
+          "reasoning": "High risk order history detected during return request.",
+          "auto_approved": false
+        },
+        "timestamp": "2026-02-04T22:35:59.531Z"
+      }
+    },
+    {
+      "order_id": "ORD-6608",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 3,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 500,
+      "past_returns": 3,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 3 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-6608! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T10:49:43.276Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-938",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Beauty and Cosmetics",
+      "price": 25,
+      "return_history_count": 0,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 40,
+      "customer_avg_order_value": 50,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 20,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 26.25,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1.25,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-3520",
+      "customer_id": "Tamim",
+      "product_category": "Premium Electronics",
+      "price": 100,
+      "return_history_count": 0,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 25,
+      "customer_avg_order_value": 50,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 20,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 30,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 5,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-8511",
+      "customer_id": "Tamim",
+      "product_category": "Premium Electronics",
+      "price": 100,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 25,
+      "customer_avg_order_value": 50,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 22.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 45,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 20,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-8511 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:09:09.464Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-4462",
+      "customer_id": "Tamim",
+      "product_category": "Premium Electronics",
+      "price": 100,
+      "return_history_count": 14,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 25,
+      "customer_avg_order_value": 50,
+      "past_returns": 14,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 14 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 22.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 45,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 20,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-4462 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:09:18.880Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-3077",
+      "customer_id": "Tamim",
+      "product_category": "Premium Electronics",
+      "price": 1000,
+      "return_history_count": 14,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 41,
+      "customer_avg_order_value": 50,
+      "past_returns": 14,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 14 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 20.0x higher than their average spend."
+        ],
+        "estimated_savings": 112.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 225,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 200,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-3077 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:09:30.695Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-2209",
+      "customer_id": "Tamim",
+      "product_category": "Premium Electronics",
+      "price": 1000,
+      "return_history_count": 14,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 41,
+      "customer_avg_order_value": 500,
+      "past_returns": 14,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 14 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 112.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 225,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 200,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-2209 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:09:40.784Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-1403",
+      "customer_id": "Tamim2",
+      "product_category": "Premium Electronics",
+      "price": 1000,
+      "return_history_count": 14,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 41,
+      "customer_avg_order_value": 500,
+      "past_returns": 14,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 14 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 112.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 225,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 200,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-1403 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:10:04.376Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-8228",
+      "customer_id": "Tamim2",
+      "product_category": "Premium Electronics",
+      "price": 1000,
+      "return_history_count": 9,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 41,
+      "customer_avg_order_value": 500,
+      "past_returns": 9,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 60,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 9 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago.",
+          "This order is 2.0x higher than their average spend."
+        ],
+        "estimated_savings": 112.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 225,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 200,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-8228 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T11:10:10.409Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "ORD-1201",
+      "customer_id": "ORD-6680",
+      "product_category": "Premium Electronics",
+      "price": 15,
+      "return_history_count": 0,
+      "payment_method": "CARD",
+      "is_cod": false,
+      "account_age_days": 20,
+      "customer_avg_order_value": 5,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [],
+        "reasoning_factors": [
+          "This order is 3.0x higher than their average spend."
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 25.75,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 0.75,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T11:40:32.775Z"
+    },
+    {
+      "order_id": "ORD-7594",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-7594! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T12:03:17.467Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T12:03:17.467Z"
+    },
+    {
+      "order_id": "ORD-4607",
+      "customer_id": "dsd",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-4607! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T12:05:53.771Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T12:05:53.771Z"
+    },
+    {
+      "order_id": "ORD-9701",
+      "customer_id": "fnd",
+      "product_category": "Premium Electronics",
+      "price": 200,
+      "return_history_count": 0,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 20,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 35,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 10,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T12:12:01.202Z"
+    },
+    {
+      "order_id": "ORD-6179",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-6179! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T12:38:46.966Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T12:38:46.966Z"
+    },
+    {
+      "order_id": "ORD-6317",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-6317! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-03T13:07:24.872Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T13:07:24.872Z"
+    },
+    {
+      "order_id": "SHOPIFY-5215",
+      "product_category": "Jeans",
+      "price": 2000,
+      "payment_method": "CARD",
+      "customer_id": "99999",
+      "delivery_location": "Chittagong",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 10,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 125,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 100,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T14:39:03.264Z"
+    },
+    {
+      "order_id": "TEST-368",
+      "product_category": "T-Shirt",
+      "price": 1500,
+      "payment_method": "COD",
+      "customer_id": "99999",
+      "delivery_location": "Dhaka",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 30,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 100,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 75,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "timestamp": "2026-02-03T14:41:46.245Z",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "SHOPIFY-7924",
+      "product_category": "Jeans",
+      "price": 2000,
+      "payment_method": "CARD",
+      "customer_id": "99999",
+      "delivery_location": "Chittagong",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 10,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 125,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 100,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T14:41:46.252Z"
+    },
+    {
+      "order_id": "SHOPIFY-1437",
+      "product_category": "Jeans",
+      "price": 2000,
+      "payment_method": "CARD",
+      "customer_id": "99999",
+      "delivery_location": "Chittagong",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 10,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 125,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 100,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T14:50:13.930Z"
+    },
+    {
+      "order_id": "TEST-9292",
+      "product_category": "T-Shirt",
+      "price": 1500,
+      "payment_method": "COD",
+      "customer_id": "99999",
+      "delivery_location": "Dhaka",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 30,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 100,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 75,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "timestamp": "2026-02-03T14:50:25.479Z",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2"
+    },
+    {
+      "order_id": "SHOPIFY-2341",
+      "product_category": "Jeans",
+      "price": 2000,
+      "payment_method": "CARD",
+      "customer_id": "99999",
+      "delivery_location": "Chittagong",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 10,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 125,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 100,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T14:50:25.488Z"
+    },
+    {
+      "order_id": "820982911946154500",
+      "product_category": "The Inventory Not Tracked Snowboard",
+      "price": 3624.88,
+      "payment_method": "COD",
+      "customer_id": "115310627314723950",
+      "delivery_location": "Shippington",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 38,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)",
+          "Premium price tier ($3624.88)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 206.24,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 181.24,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:19:48.387Z"
+    },
+    {
+      "order_id": "7272949809437",
+      "product_category": "watch",
+      "price": 58,
+      "payment_method": "CARD",
+      "customer_id": "10260143931677",
+      "delivery_location": "Dhaka, Bangladesh",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [],
+        "reasoning_factors": [],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 27.9,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 2.9,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:21:12.355Z"
+    },
+    {
+      "order_id": "7272951185693",
+      "product_category": "watch",
+      "price": 58,
+      "payment_method": "CARD",
+      "customer_id": "10260143931677",
+      "delivery_location": "New York",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [],
+        "reasoning_factors": [],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 27.9,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 2.9,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:22:47.012Z"
+    },
+    {
+      "order_id": "820982911946154500",
+      "product_category": "The Inventory Not Tracked Snowboard",
+      "price": 3624.88,
+      "payment_method": "COD",
+      "customer_id": "115310627314723950",
+      "delivery_location": "Shippington",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 38,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)",
+          "Premium price tier ($3624.88)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 206.24,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 181.24,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:37:56.125Z"
+    },
+    {
+      "order_id": "7272968159517",
+      "product_category": "watch",
+      "price": 58,
+      "payment_method": "CARD",
+      "customer_id": "10260143931677",
+      "delivery_location": "New York",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [],
+        "reasoning_factors": [],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 27.9,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 2.9,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:38:59.217Z"
+    },
+    {
+      "order_id": "7272959934749",
+      "product_category": "watch",
+      "price": 58,
+      "payment_method": "CARD",
+      "customer_id": "10260143931677",
+      "delivery_location": "New York",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 0,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [],
+        "reasoning_factors": [],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 27.9,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 2.9,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:39:18.871Z"
+    },
+    {
+      "order_id": "820982911946154500",
+      "product_category": "The Inventory Not Tracked Snowboard",
+      "price": 3624.88,
+      "payment_method": "COD",
+      "customer_id": "115310627314723950",
+      "delivery_location": "Shippington",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 38,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)",
+          "Premium price tier ($3624.88)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 206.24,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 181.24,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T15:59:12.205Z"
+    },
+    {
+      "order_id": "820982911946154500",
+      "product_category": "The Inventory Not Tracked Snowboard",
+      "price": 3624.88,
+      "payment_method": "COD",
+      "customer_id": "115310627314723950",
+      "delivery_location": "Shippington",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 38,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)",
+          "Premium price tier ($3624.88)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 206.24,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 181.24,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T19:17:24.341Z"
+    },
+    {
+      "order_id": "820982911946154500",
+      "product_category": "The Inventory Not Tracked Snowboard",
+      "price": 3624.88,
+      "payment_method": "COD",
+      "customer_id": "115310627314723950",
+      "delivery_location": "Shippington",
+      "customer_return_history": 0,
+      "return_history_count": 0,
+      "riskAnalysis": {
+        "risk_score_percent": 38,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)",
+          "Premium price tier ($3624.88)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 206.24,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 181.24,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "source": "SHOPIFY_WEBHOOK",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-03T20:12:55.889Z"
+    },
+    {
+      "order_id": "ORD-2661",
+      "customer_id": "new",
+      "product_category": "Premium Electronics",
+      "price": 500,
+      "return_history_count": 2,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 19,
+      "customer_avg_order_value": 0,
+      "past_returns": 2,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 40,
+        "risk_label": "MEDIUM",
+        "confidence_percent": 90,
+        "reasons": [
+          "Previous return history",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 2 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 62.5,
+        "prevention_chance": 50,
+        "potential_loss_without_ai": 125,
+        "recommended_action": "INCENTIVE",
+        "action_description": "Suggest prepaid discount",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 100,
+          "shipping_cost": 10,
+          "prevention_prob": 50
+        },
+        "comparison_insight": "A slight nudge here can prevent a return without friction."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hi Customer, your order #ORD-2661 is confirmed! We have double-checked the items. If you have any questions, feel free to reply here.",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "MEDIUM",
+          "timestamp": "2026-02-03T20:40:16.018Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-03T20:40:16.018Z"
+    },
+    {
+      "order_id": "ORD-2057",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-2057! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T15:10:30.129Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-04T15:10:30.129Z"
+    },
+    {
+      "order_id": "ORD-7521",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-7521! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T20:13:35.373Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "266159541725dd7e800d1495f63909e8",
+      "timestamp": "2026-02-04T20:13:35.373Z"
+    },
+    {
+      "order_id": "ORD-9576",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-9576! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:18:48.430Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:18:48.430Z"
+    },
+    {
+      "order_id": "ORD-3222",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-3222! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:19:17.978Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:19:17.978Z"
+    },
+    {
+      "order_id": "ORD-8778",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 0,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 0,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 30,
+        "risk_label": "MODERATE",
+        "confidence_percent": 90,
+        "reasons": [
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "New customer with expensive item",
+          "Cash on Delivery (higher refusal risk)"
+        ],
+        "estimated_savings": 0,
+        "prevention_chance": 10,
+        "potential_loss_without_ai": 100,
+        "recommended_action": "NO_ACTION",
+        "action_description": "Preventive action not recommended because intervention cost outweighs expected return risk.",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 75,
+          "shipping_cost": 10,
+          "prevention_prob": 10
+        },
+        "comparison_insight": "ReturnGuard intervenes only when the expected savings justify the action."
+      },
+      "generatedMessage": null,
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:19:23.487Z"
+    },
+    {
+      "order_id": "ORD-2574",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-2574! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:21:50.965Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:21:50.965Z"
+    },
+    {
+      "order_id": "ORD-5062",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-5062! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:21:55.003Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:21:55.003Z"
+    },
+    {
+      "order_id": "ORD-9091",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-9091! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:31:31.064Z"
+        }
+      },
+      "status": "RETURN_REQUESTED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:31:31.065Z",
+      "returnRequest": {
+        "reason": "SIZE_ISSUE",
+        "condition": "OPENED_UNUSED",
+        "decision": {
+          "recommendation": "MANUAL_REVIEW",
+          "reasoning": "High risk order history detected during return request.",
+          "auto_approved": false
+        },
+        "timestamp": "2026-02-04T22:32:08.072Z"
+      }
+    },
+    {
+      "order_id": "ORD-7067",
+      "customer_id": "CUST-FREQ-RET",
+      "product_category": "Premium Electronics",
+      "price": 1500,
+      "return_history_count": 4,
+      "payment_method": "COD",
+      "is_cod": true,
+      "account_age_days": 15,
+      "customer_avg_order_value": 0,
+      "past_returns": 4,
+      "past_orders": 5,
+      "is_guest": false,
+      "riskAnalysis": {
+        "risk_score_percent": 70,
+        "risk_label": "HIGH",
+        "confidence_percent": 90,
+        "reasons": [
+          "High customer return rate",
+          "New account risk",
+          "COD payment method"
+        ],
+        "reasoning_factors": [
+          "Customer returned 4 orders historically, but only 1 in the last 5 purchases.",
+          "Last return was 9 days ago."
+        ],
+        "estimated_savings": 1220,
+        "prevention_chance": 80,
+        "potential_loss_without_ai": 1525,
+        "recommended_action": "CONFIRMATION",
+        "action_description": "AI verification required",
+        "roi_breakdown": {
+          "handling_cost": 25,
+          "refund_loss": 1500,
+          "shipping_cost": 10,
+          "prevention_prob": 80
+        },
+        "comparison_insight": "This decision would be different for a customer with good history — even for this same product."
+      },
+      "generatedMessage": {
+        "sent": true,
+        "content": "Hello Customer, thanks for your order #ORD-7067! We want to ensure everything is perfect. Please prefer to open the package in front of the delivery person. If you need an exchange, we are here to help!",
+        "channel": "WhatsApp",
+        "metadata": {
+          "risk_context": "HIGH",
+          "timestamp": "2026-02-04T22:47:41.180Z"
+        }
+      },
+      "status": "CONFIRMED",
+      "userId": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "timestamp": "2026-02-04T22:47:41.180Z"
+    }
+  ],
+  "preventedReturnsCount": 3,
+  "users": [
+    {
+      "id": "5Sn4x9eWcrgCq80sNL4b0OP4AZI2",
+      "email": "rubayethaideraritto@gmail.com",
+      "passwordHash": "$2b$10$ivCIvTw7U5NZlAFWyAqLZOudRXi2Nl1uT4p79AVE6.gFnjzvomX3m",
+      "createdAt": "2026-02-03T08:45:53.262Z"
+    },
+    {
+      "id": "266159541725dd7e800d1495f63909e8",
+      "email": "demo@gmail.com",
+      "passwordHash": "$2b$10$JJQ04Vt2wNc4QIzCiea/nu96eF4eThrylmJSxq8DG9qeUyUf9Wk3m",
+      "createdAt": "2026-02-03T11:28:41.590Z",
+      "settings": {
+        "autoSend": false,
+        "manualApproval": true,
+        "strictMode": true
+      }
+    }
+  ],
+  "shopStates": {
+    "returnguard-test.myshopify.com": "trs49g68oh"
+  },
+  "shopTokens": {
+    "returnguard-test.myshopify.com": "shpua_45305a3f5eb3afdd9909ccb73f9087be"
+  }
+}
