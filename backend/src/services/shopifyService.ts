@@ -4,14 +4,16 @@ import { Order } from '../agents/OrderRiskAgent';
 
 dotenv.config();
 
-const SHOP_URL = process.env.SHOPIFY_SHOP_URL;
-const ADMIN_TOKEN = process.env.SHOPIFY_ADMIN_TOKEN;
 const API_VERSION = '2024-01';
 
 export class ShopifyService {
     private async fetchShopify(endpoint: string) {
+        const SHOP_URL = process.env.SHOPIFY_SHOP_URL;
+        const ADMIN_TOKEN = process.env.SHOPIFY_ADMIN_TOKEN;
+        
         if (!SHOP_URL || !ADMIN_TOKEN) {
-            throw new Error('Shopify credentials not configured in .env');
+            console.error('Environment variables check:', { SHOP_URL: !!SHOP_URL, ADMIN_TOKEN: !!ADMIN_TOKEN });
+            throw new Error('Shopify credentials not configured in environment variables');
         }
 
         const url = `${SHOP_URL}/admin/api/${API_VERSION}/${endpoint}`;
@@ -74,3 +76,4 @@ export class ShopifyService {
 }
 
 export const shopifyService = new ShopifyService();
+
