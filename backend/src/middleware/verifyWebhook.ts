@@ -19,12 +19,18 @@ export const verifyShopifyWebhook = (req: Request, res: Response, next: NextFunc
         return res.status(401).json({ error: 'Unauthorized: Missing signature' });
     }
 
-    // Get raw body (express.json() already parsed it, we need raw for verification)
-    const rawBody = JSON.stringify(req.body);
+    // Use the raw body buffer captured in index.ts for precise signature verification
+    const rawBody = (req as any).rawBody;
+
+    if (!rawBody) {
+        console.error('Webhook rejected: rawBody not captured - check express.json config');
+        return res.status(500).json({ error: 'Internal server error: body capture failed' });
+    }
+
 
     const hash = crypto
         .createHmac('sha256', SHOPIFY_WEBHOOK_SECRET)
-        .update(rawBody, 'utf8')
+        .update(rawBody)
         .digest('base64');
 
     if (hash !== hmacHeader) {
@@ -35,3 +41,4 @@ export const verifyShopifyWebhook = (req: Request, res: Response, next: NextFunc
     console.log('✓ Webhook verified successfully');
     next();
 };
+
