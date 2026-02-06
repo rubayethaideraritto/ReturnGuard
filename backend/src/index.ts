@@ -57,7 +57,11 @@ app.use(cors({
     allowedHeaders: ['Content-Type', 'Authorization'],
     exposedHeaders: ['Content-Type', 'Authorization']
 }));
-app.use(express.json());
+app.use(express.json({
+    verify: (req: any, res, buf) => {
+        req.rawBody = buf;
+    }
+}));
 
 // ---- Health Check / Root ----
 app.get('/', (_req, res) => {
@@ -258,3 +262,4 @@ app.use((req, res) => {
 app.listen(PORT, () => {
     console.log(`ReturnGuard backend running on port ${PORT}`);
 });
+
