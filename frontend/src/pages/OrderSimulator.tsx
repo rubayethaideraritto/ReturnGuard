@@ -32,8 +32,8 @@ export const OrderSimulator = () => {
             account_age_days: Number(formData.get('account_age_days')) || 0,
             customer_avg_order_value: Number(formData.get('customer_avg_order_value')) || 0,
             past_returns: Number(formData.get('return_history_count')) || 0,
-            past_orders: 5,
-            is_guest: false
+            past_orders: Number(formData.get('past_orders')) || 0,
+            is_guest: formData.get('is_guest') === 'true'
         };
 
 
@@ -298,3 +298,4 @@ const TrendingUp = ({ className }: { className?: string }) => (
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-9 9-4-4-6 6" />
     </svg>
 );
+
